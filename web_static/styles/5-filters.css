@@ -36,6 +36,7 @@ div section.filters div.locations {
   width: 25%;
   border-right: 1px #dddddd solid;
   position: absolute;
+  margin-left: 20px;
 }
 
 div section.filters div.amenities {
