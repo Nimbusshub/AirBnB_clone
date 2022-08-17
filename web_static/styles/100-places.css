@@ -1,0 +1,140 @@
+.places {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.places h1 {
+  font-size: 30px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.places h2 {
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 20px;
+  display: inline-flex;
+}
+
+article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px #ff5a5f solid;
+  border-radius: 4px;
+}
+
+.price_by_night {
+  color: #ff5a5f;
+  border: 4px #ff5a5f solid;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 80px;
+  line-height: 80px;
+  width: 80px;
+  font-size: 30px;
+  display: inline-flex;
+  justify-content: center;
+  float: right;
+  position: relative;
+}
+
+.information {
+  height: 80px;
+  border-top: 1px #dddddd solid;
+  border-bottom: 1px #dddddd solid;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.max_guest {
+  background-image: url(../images/guests.png);
+  background-position: left 10px;
+}
+.number_rooms {
+  background-image: url(../images/bedrooms.png);
+  background-position: center 10px;
+}
+
+.number_bathrooms {
+  background-image: url(../images/bathrooms.png);
+  background-position: center 10px;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+  background-repeat: no-repeat;
+  width: 100px;
+  padding: 55px 0 20px 5px;
+}
+
+div.user strong {
+  font-size: 20px;
+}
+
+.user {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+article div.amenities h2 {
+  font-size: 20px;
+  border-bottom: 1px #dddddd solid;
+  width: 100%;
+  display: flex;
+  margin-left: 0;
+  margin-top: 40px;
+  justify-content: left;
+}
+
+article div.amenities li {
+  font-size: 15px;
+}
+
+article div.amenities li#l1 {
+  background-image: url(../images/icon_tv.png);
+}
+article div.amenities li#l2 {
+  background-image: url(../images/icon_wifi.png);
+}
+article div.amenities li#l3 {
+  background-image: url(../images/icon_pets.png);
+}
+
+article div.amenities li#l1,
+article div.amenities li#l2,
+article div.amenities li#l3 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 50px;
+  margin-top: 10px;
+  display: flex;
+}
+
+article div.reviews h2 {
+  font-size: 20px;
+  border-bottom: 1px #dddddd solid;
+  width: 100%;
+  margin-left: 0;
+  justify-content: left;
+  display: flex;
+  margin-top: 40px;
+}
+
+article div.reviews h3 {
+  font-size: 18px;
+}
+
+article div.reviews p {
+  font-size: 15px;
+}
